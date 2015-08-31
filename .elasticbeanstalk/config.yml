@@ -1,0 +1,10 @@
+branch-defaults:
+  docker-integration:
+    environment: testing
+global:
+  application_name: logkeeper
+  default_ec2_keyname: logkeeperapp
+  default_platform: 64bit Amazon Linux 2014.09 v1.2.1 running Docker 1.5.0
+  default_region: null
+  profile: null
+  sc: git
